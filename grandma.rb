@@ -1,3 +1,5 @@
+require 'pry'
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -20,4 +22,5 @@ def speak_to_grandma(input)
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
+  binding.pry
 end
